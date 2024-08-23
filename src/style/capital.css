@@ -1,0 +1,36 @@
+.capital {
+    margin-top: 263px;
+}
+
+.capital__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+
+
+}
+
+.capitalCard {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px 0 rgba(17, 34, 17, 0.123);
+    background: var(--neutrals);
+    margin-top: 40px;
+}
+
+.capitalCard h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--blackish-green);
+    opacity: 0.7;
+}
+
+.capitalCard p {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blackish-green);
+    margin-top: 8px;
+}

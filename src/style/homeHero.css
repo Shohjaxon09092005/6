@@ -1,0 +1,46 @@
+.homeHero {
+    background-image: url('../image/homeHero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 247px;
+    border-radius: 24px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    transform: rotate(-180deg);
+    border-radius: 0 0 24px 24px;
+    width:100%;
+    height: 581px;
+    top: 0;
+}
+.header__content{
+    position: relative;
+    z-index: 15;
+}
+.homeHero h2 {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: var(--neutrals);
+}
+
+.homeHero h1 {
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--neutrals);
+    margin-top: 4px;
+}
+
+.homeHero h4 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: var(--neutrals);
+    margin-top: 16px;
+}

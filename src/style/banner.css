@@ -1,0 +1,74 @@
+.bannerCard {
+    margin-top: 80px;
+    box-shadow: 0 4px 16px 0 rgba(17, 34, 17, 0.05);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 372px 101px 18px 107px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.bannerCard h2 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: var(--neutrals);
+}
+
+.bannerCard p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: var(--neutrals);
+}
+
+.bannerCard button {
+    border-radius: 4px;
+    padding: 15.5px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blackish-green);
+    display: block;
+    margin: 0 auto;
+    background: var(--mint-green);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.banner__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.bannerCard .div {
+    position: absolute;
+    border-radius: 0 0 24px 24px;
+    width: 604px;
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(18, 18, 18, 0.75) 48.67%);
+    transform: rotate(0deg);
+    bottom: 0;
+    right: 0;
+
+}
+
+.bannerCard__content {
+    position: relative;
+    z-index: 20;
+}
+
+.bannerCard__content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: var(--neutrals);
+}
+
+.bannerCard__content p {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}

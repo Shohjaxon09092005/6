@@ -1,0 +1,32 @@
+.hotelHero {
+    margin-top: 262px;
+}
+
+.hotelHero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 32px;
+}
+
+.hotelHero__card {
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hotelHero__card h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--blackish-green);
+    margin-bottom: 8px;
+}
+
+.hotelHero__card p {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--blackish-green);
+    opacity: 0.75;
+}

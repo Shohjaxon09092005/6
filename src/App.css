@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+:root {
+	--blackish-green: #121;
+	--mint-green: #8dd3bb;
+	--slamon: #ff8682;
+	--neutrals: #fff;
+}
+.container{
+    max-width: 1262px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
